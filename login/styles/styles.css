@@ -1,0 +1,74 @@
+/* Estilos generales de la pagina */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+/* Colores de texto */
+.texto-azul{
+    color: rgb(71, 71, 252);
+}
+.fondo-blanco{
+    background-color: white;
+    
+}
+.fondo-gris{
+    /*background-color: gray;*/
+    background-image: url(../img/juliana-barquero-ANTavf3QXvY-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 20%;
+    background-position-x: 20% ;
+}
+.form-contenedor{
+    padding: 4rem;
+    width:30%;
+    height: 20rem;
+    /* border: <tipo del borde> <medida del borde> <color dedl borde>;*/
+    border:solid 0.1rem gray;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: -11px 11px 10px rgba(0, 0, 0, 0.493);
+}
+/*Contenedor de los input*/
+.input-contenedor{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-contenedor input {
+border-radius: 0.4rem;
+border: solid 0.1rem gray;
+padding: 0.4rem;
+margin-top: 0.2rem;
+}
+.contenedor_chequeo{
+    margin-top: 0.7rem;
+    margin-right: 1rem;
+}
+.boton-contenedor{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+.contenedor_chequeo input{
+    margin-right: 0.3rem;
+
+}
+.boton{
+    padding: 0.7rem;
+    background-color: rgb(67, 121, 223);
+    border: 0px;
+    border-radius: 0.3rem;
+    color: white;
+}
+.boton:hover{
+    background-color: tomato;
+    color: black;
+}
+.screen-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
